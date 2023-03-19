@@ -52,7 +52,7 @@ setInterval( () =>{
     textIndex = 0
   }
   const  text = quistionAns[textIndex]
-  console.log(text)
+  // console.log(text)
   texts.innerHTML = text;
   textIndex++;
 },2000)
